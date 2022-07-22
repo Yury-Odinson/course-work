@@ -2,7 +2,7 @@
     background-color: black;
     width: 100%;
     
-    .header-container {
+    &-container {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
@@ -23,7 +23,7 @@
         cursor: default;
     }
 
-    .header-nav__item {
+    &-nav__item {
         padding: 10px 40px;
         color: white;
     }
