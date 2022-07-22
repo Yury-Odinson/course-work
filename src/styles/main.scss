@@ -1,0 +1,30 @@
+.header {
+    background-color: black;
+    width: 100%;
+    
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 40px 0;
+        max-width: 1200px;
+        border: 2px solid black;
+    }
+
+    &__logo {
+        width: 147px;
+        height: 20px;
+    }
+
+    &-nav {
+        font-size: 1.2rem;
+        // нижнее свойство необходимо для того,
+        // чтобы отображался обычный курсор между кнопок навигации.
+        cursor: default;
+    }
+
+    .header-nav__item {
+        padding: 10px 40px;
+        color: white;
+    }
+}
