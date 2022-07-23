@@ -29,6 +29,7 @@
     }
 }
 
+// 1-я, главная секция на чёрном фоне
 .redesign {
     width: 100%;
     background-color: black;
@@ -93,4 +94,50 @@
         color: rgba(white, 0.4);
     }
 
+}
+
+// 2-я секция на белом фоне "Jak możemy pomóc"
+.help {
+    width: 100%;
+
+    &-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    &__title {
+        padding: 90px 90px 0;
+        color: #E8244F;
+    }
+
+    &-list {
+        padding: 60px 0;
+    }
+
+    &-list-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 90px;
+    }
+
+    &-list__item {
+        margin: auto 0;
+        min-width: 320px;
+    }
+
+    &-list__item1 {
+        font-size: 4.6rem;
+    }
+
+    &-list__item2 {
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    &-list__item3 {
+        margin: auto 0;
+        width: 43px;
+        height: 43px;
+    }
 }
