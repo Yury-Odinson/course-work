@@ -28,3 +28,69 @@
         color: white;
     }
 }
+
+.redesign {
+    width: 100%;
+    background-color: black;
+
+    &-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    &-cover__image {
+        position: absolute;
+        margin-top: 100px;
+        left: 55%;
+        transform: translateX(-55%);
+        width: 444px;
+        height: 398px;
+    }
+
+    .redesign-second__img {
+        margin-left: -3%;
+    }
+
+    &-title {
+        position: relative;
+        margin: 0 auto;
+        padding-top: 120px;
+    }
+
+    &-title__abovetitle {
+        padding-left: 180px;
+        font-size: 1.1rem;
+        color: #999999;
+    }
+
+    &-title__item {
+        color: white;
+        font-size: 11rem;
+    }
+
+    .title__item1 {
+        padding-left: 130px;
+    }
+
+    .title__item2 {
+        padding-left: 330px;
+    }
+
+    &-descriptions {
+        display: flex;
+        justify-content: space-between;
+        padding: 200px 50px 80px;
+        font-size: 1.9rem;
+        line-height: 3rem;
+        color: white;
+    }
+
+    &-descriptions__item {
+        max-width: 500px;
+    }
+
+    &-descriptions__free {
+        color: rgba(white, 0.4);
+    }
+
+}
