@@ -7,7 +7,7 @@
         justify-content: space-between;
         margin: 0 auto;
         padding: 40px 0;
-        max-width: 1200px;
+        max-width: 1300px;
         border: 2px solid black;
     }
 
@@ -36,7 +36,7 @@
 
     &-container {
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1300px;
     }
 
     &-cover__image {
@@ -102,7 +102,7 @@
 
     &-container {
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1300px;
     }
 
     &__title {
@@ -139,5 +139,81 @@
         margin: auto 0;
         width: 43px;
         height: 43px;
+    }
+}
+
+// 3-я грид-секция на белом фоне с фото
+.history {
+    width: 100%;
+
+    &-container {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:"title title title phot1" 
+                            "descr descr phot2 phot3"
+                            " .    phot4 phot5 phot6"
+                            "phot7 phot8 after after";
+        
+        grid-row-gap: 20px;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    &__title {
+        grid-area: title;
+        font-size: 11.4rem;
+        max-width: 500px;
+    }
+
+    &-descriptions {
+        grid-area: descr;
+        margin: auto 0;
+        font-size: 2rem;
+        font-size: 1.7rem;
+    }
+
+    &-descriptions__item {
+        padding-bottom: 20px;
+        font-size: 1.7rem;
+        }
+
+    &__photo1 {
+        grid-area: phot1;
+    }
+
+    &__photo2 {
+        grid-area: phot2;
+    }
+
+    &__photo3 {
+        grid-area: phot3;
+    }
+
+    &__photo4 {
+        grid-area: phot4;
+    }
+
+    &__photo5 {
+        grid-area: phot5;
+    }
+
+    &__photo6 {
+        grid-area: phot6;
+    }
+
+    &__photo7 {
+        grid-area: phot7;
+    }
+
+    &__photo8 {
+        grid-area: phot8;
+    }
+
+    &__afterwords {
+        grid-area: after;
+        margin: auto;
+        font-size: 1.7rem;
     }
 }
