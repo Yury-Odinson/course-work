@@ -104,6 +104,7 @@
 .help__title {
   color: #e8244f;
   padding: 90px 90px 0;
+  font-size: 1.5rem;
 }
 
 .help-list {
@@ -208,6 +209,32 @@
   grid-area: after;
   margin: auto;
   font-size: 1.7rem;
+}
+
+.trusted {
+  width: 100%;
+}
+
+.trusted-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.trusted__title {
+  color: #e8244f;
+  padding: 90px 0 0;
+  font-size: 1.5rem;
+}
+
+.trusted-firms {
+  flex-wrap: wrap;
+  padding: 60px 0 120px;
+  display: flex;
+}
+
+.trusted-firms__item {
+  width: 253px;
+  height: 76px;
 }
 
 /*# sourceMappingURL=index.971c2ea4.css.map */

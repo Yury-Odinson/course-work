@@ -108,6 +108,7 @@
     &__title {
         padding: 90px 90px 0;
         color: #E8244F;
+        font-size: 1.5rem;
     }
 
     &-list {
@@ -215,5 +216,32 @@
         grid-area: after;
         margin: auto;
         font-size: 1.7rem;
+    }
+}
+
+// 4-я секция на белом фоне
+.trusted {
+    width: 100%;
+
+    &-container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        padding: 90px 0 0;
+        color: #E8244F;
+        font-size: 1.5rem;
+    }
+
+    &-firms {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 0px 120px;
+    }
+
+    &-firms__item {
+        width: 253px;
+        height: 76px;
     }
 }
