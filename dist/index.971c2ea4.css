@@ -387,7 +387,7 @@
 .ticker-container {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 100px 0;
   font-size: 11.4rem;
   overflow: hidden;
 }
@@ -402,6 +402,41 @@
 
 .ticker__stringBlack {
   color: #000;
+}
+
+.pomagamy {
+  width: 100%;
+}
+
+.pomagamy-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+}
+
+.pomagamy-cell {
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 40px;
+  display: flex;
+}
+
+.pomagamy-cell__title {
+  max-width: 520px;
+  font-size: 4.6rem;
+}
+
+.pomagamy-cell__description {
+  max-width: 500px;
+  font-size: 2rem;
+}
+
+.pomagamy-cell-signatures {
+  max-width: 480px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.971c2ea4.css.map */
