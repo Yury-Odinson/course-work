@@ -245,3 +245,86 @@
         height: 76px;
     }
 }
+
+
+
+// 5-я секция на чёрном фоне
+.agile {
+
+    width: 100%;
+    background-color: black;
+
+    &-container {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "ag__nav ag__tit ag__tit "
+                             "ag__nav ag__des .       "
+                             "ag__tic ag__tic ag__tic ";
+
+        grid-row-gap: 50px;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 100px 0;
+        color: white;
+    }
+
+    &-navigation {
+        grid-area: ag__nav;
+        max-width: 320px;
+    }
+
+    &-navigation-list {
+        font-size: 1.4rem;
+    }
+
+    &-navigation-list__item {
+        padding-top: 10px;
+    }
+
+    &-navigation-list__item:first-child {
+        color: #E8244F;
+    }
+
+    &-title {
+        grid-area: ag__tit;
+        max-width: 500px;
+    }
+
+    &-title__item {
+        font-size: 5.8rem;
+    }
+
+    &-description {        
+        grid-area: ag__des;
+        max-width: 420px;
+    }
+
+    &-description__item {
+        padding: 20px 0;
+        font-size: 2rem;
+    }
+
+    &-description__afterwords {
+        font-size: 1.6rem;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    &-ticker {
+        // запрет переноса на новую строку
+        white-space: nowrap;
+        overflow: hidden;
+        grid-area: ag__tic;
+    }
+
+    &-ticker__item {
+        font-size: 11.4rem;
+        padding-right: 50px;
+        color: #181818;
+    }
+
+    &-ticker__item:first-child {
+        color: #E8244F;
+    }
+}

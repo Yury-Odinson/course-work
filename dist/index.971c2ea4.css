@@ -237,4 +237,81 @@
   height: 76px;
 }
 
+.agile {
+  width: 100%;
+  background-color: #000;
+}
+
+.agile-container {
+  grid-row-gap: 50px;
+  max-width: 1000px;
+  color: #fff;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "ag__nav ag__tit ag__tit"
+                       "ag__nav ag__des ."
+                       "ag__tic ag__tic ag__tic";
+  margin: 0 auto;
+  padding: 100px 0;
+  display: grid;
+}
+
+.agile-navigation {
+  max-width: 320px;
+  grid-area: ag__nav;
+}
+
+.agile-navigation-list {
+  font-size: 1.4rem;
+}
+
+.agile-navigation-list__item {
+  padding-top: 10px;
+}
+
+.agile-navigation-list__item:first-child {
+  color: #e8244f;
+}
+
+.agile-title {
+  max-width: 500px;
+  grid-area: ag__tit;
+}
+
+.agile-title__item {
+  font-size: 5.8rem;
+}
+
+.agile-description {
+  max-width: 420px;
+  grid-area: ag__des;
+}
+
+.agile-description__item {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+
+.agile-description__afterwords {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.agile-ticker {
+  white-space: nowrap;
+  grid-area: ag__tic;
+  overflow: hidden;
+}
+
+.agile-ticker__item {
+  color: #181818;
+  padding-right: 50px;
+  font-size: 11.4rem;
+}
+
+.agile-ticker__item:first-child {
+  color: #e8244f;
+}
+
 /*# sourceMappingURL=index.971c2ea4.css.map */
