@@ -380,4 +380,28 @@
   font-size: 2rem;
 }
 
+.ticker {
+  width: 100%;
+}
+
+.ticker-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-size: 11.4rem;
+  overflow: hidden;
+}
+
+.ticker__string1, .ticker__string2, .ticker__string3 {
+  white-space: nowrap;
+}
+
+.ticker__stringGray {
+  color: #888;
+}
+
+.ticker__stringBlack {
+  color: #000;
+}
+
 /*# sourceMappingURL=index.971c2ea4.css.map */
