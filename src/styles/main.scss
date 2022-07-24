@@ -459,3 +459,68 @@
         max-width: 480px;
     }
 }
+
+// 9-я секция с контактами
+.contacts {
+
+    width: 100%;
+    background-color: black;
+
+    &-container {
+        margin: 0 auto;
+        max-width: 1300px;
+        color: white;
+    }
+
+    &__title {
+        padding: 100px 0 40px;
+        font-size: 1.5rem;
+    }
+
+    &-links {
+        padding: 50px 0;
+        max-width: 500px;
+        font-size: 6.5rem;
+    }
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+
+    &-wrapper__address {
+        display: inline-block;
+        max-width: 400px;
+        font-size: 2rem;
+    }
+
+    &-wrapper-socials {
+        display: inline-block;
+    }
+
+    &-wrapper-socials__item {
+        padding: 0 20px;
+        // если раскомментировать нижнее свойство, то изображение пропадает
+        // width: 60px;
+        height: 60px;
+    }
+
+    &-footer {
+        display: flex;
+        padding: 40px 0;
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 1.5rem;    
+    }
+
+    &-footer__item {
+        padding-right: 90px;
+    }
+
+    &-footer__righted {
+        // прижимаем последний элемент к правому краю
+        order: 999;
+        margin-left: auto;
+        padding-right: 20px;
+    }
+}
