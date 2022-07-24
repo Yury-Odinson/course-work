@@ -314,4 +314,70 @@
   color: #e8244f;
 }
 
+.inspiracje {
+  width: 100%;
+}
+
+.inspiracje-container {
+  max-width: 1300px;
+  grid-row-gap: 40px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "in__phot1 in__title in__title in__title"
+                       "in__phot2 in__phot3 in__phot4 in__phot5"
+                       "in__after in__after in__phot6 in__phot7";
+  margin: 0 auto;
+  padding: 120px 0;
+  display: grid;
+}
+
+.inspiracje-title {
+  grid-area: in__title;
+  margin: auto 0;
+}
+
+.inspiracje-title__item {
+  font-size: 11.4rem;
+}
+
+.inspiracje-title__description {
+  padding: 20px 200px 0 0;
+  font-size: 2rem;
+}
+
+.inspiracje__photo1 {
+  grid-area: in__phot1;
+}
+
+.inspiracje__photo2 {
+  grid-area: in__phot2;
+}
+
+.inspiracje__photo3 {
+  grid-area: in__phot3;
+}
+
+.inspiracje__photo4 {
+  grid-area: in__phot4;
+}
+
+.inspiracje__photo5 {
+  grid-area: in__phot5;
+}
+
+.inspiracje__photo6 {
+  grid-area: in__phot6;
+}
+
+.inspiracje__photo7 {
+  grid-area: in__phot7;
+}
+
+.inspiracje__afterwords {
+  grid-area: in__after;
+  margin: auto 0;
+  padding-right: 140px;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=index.971c2ea4.css.map */

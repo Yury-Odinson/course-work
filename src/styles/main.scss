@@ -328,3 +328,71 @@
         color: #E8244F;
     }
 }
+
+// 6-я грид-секция на белом фоне
+.inspiracje {
+
+    width: 100%;
+
+    &-container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 120px 0;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "in__phot1 in__title in__title in__title"
+                             "in__phot2 in__phot3 in__phot4 in__phot5"
+                             "in__after in__after in__phot6 in__phot7";
+        grid-row-gap: 40px;
+    }
+
+    &-title {
+        margin: auto 0;
+        grid-area: in__title;
+    }
+
+    &-title__item {
+        font-size: 11.4rem;
+    }
+
+    &-title__description {
+        padding: 20px  200px 0 0;
+        font-size: 2rem;
+    }
+
+    &__photo1 {
+        grid-area: in__phot1;
+    }
+
+    &__photo2 {
+        grid-area: in__phot2;
+    }
+
+    &__photo3 {
+        grid-area: in__phot3;
+    }
+
+    &__photo4 {
+        grid-area: in__phot4;
+    }
+
+    &__photo5 {
+        grid-area: in__phot5;
+    }
+
+    &__photo6 {
+        grid-area: in__phot6;
+    }
+
+    &__photo7 {
+        grid-area: in__phot7;
+    }
+
+    &__afterwords {
+        margin: auto 0;
+        padding-right: 140px;
+        grid-area: in__after;
+        font-size: 2rem;
+    }
+}
