@@ -68,3 +68,14 @@
         transition: 0.2s;
     }
 }
+
+.contacts {
+
+    &-wrapper-socials__item:hover {
+        transform: scale(1.2);
+        transition: 0.2s;
+    }
+    &-wrapper-socials__item {
+        transition: 0.2s;
+    }
+}
