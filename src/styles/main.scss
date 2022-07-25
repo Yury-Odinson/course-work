@@ -1,8 +1,8 @@
-.header {
+#header {
     background-color: black;
     width: 100%;
     
-    &-container {
+    .header-container {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
@@ -11,19 +11,19 @@
         border: 2px solid black;
     }
 
-    &__logo {
+    .header__logo {
         width: 147px;
         height: 20px;
     }
 
-    &-nav {
+    .header-nav {
         font-size: 1.2rem;
         // нижнее свойство необходимо для того,
         // чтобы отображался обычный курсор между кнопок навигации.
         cursor: default;
     }
 
-    &-nav__item {
+    .header-nav__item {
         padding: 10px 40px;
         color: white;
     }
@@ -527,13 +527,13 @@
 
 // подвал сайта с кнопкой наверх
 .footer {
-
     max-width: 100%;
 
     &-container {
         margin: 0 auto;
         padding: 40px 0;
         max-width: 300px;
+        color: black;
     }
 
     &__toTop {
