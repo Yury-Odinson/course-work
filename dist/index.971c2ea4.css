@@ -298,10 +298,13 @@
   font-size: 1.6rem;
 }
 
-.agile-ticker {
-  white-space: nowrap;
+.agile-wrapper-ticker {
   grid-area: ag__tic;
   overflow: hidden;
+}
+
+.agile-ticker {
+  display: flex;
 }
 
 .agile-ticker__item {

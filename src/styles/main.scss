@@ -317,11 +317,13 @@
         border-bottom: 1px solid white;
     }
 
-    &-ticker {
-        // запрет переноса на новую строку
-        white-space: nowrap;
+    &-wrapper-ticker {
         overflow: hidden;
         grid-area: ag__tic;
+    }
+
+    &-ticker {
+        display: flex;
     }
 
     &-ticker__item {

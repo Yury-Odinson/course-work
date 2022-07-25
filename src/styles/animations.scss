@@ -29,3 +29,21 @@
         transform: rotate(-360deg);
     }
 }
+
+.agile {
+
+    &-ticker {
+        animation: 15s linear infinite;
+        animation-name: agile-ticker;
+    }
+}
+
+@keyframes agile-ticker {
+
+    0%{
+        transform: translate(100%);
+    }
+    100%{
+        transform: translate(-210%);
+    }
+}
