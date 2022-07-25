@@ -499,4 +499,18 @@
   padding-right: 20px;
 }
 
+.footer {
+  max-width: 100%;
+}
+
+.footer-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.footer__toTop {
+  font-size: 4.6rem;
+}
+
 /*# sourceMappingURL=index.971c2ea4.css.map */
