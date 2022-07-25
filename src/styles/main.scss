@@ -415,18 +415,21 @@
         font-size: 11.4rem;
     }
 
+
+   
+
+
     &__string1, 
     &__string2,
     &__string3 {
         white-space: nowrap;
-    }
-
-    &__stringGray {
         color: #888888;
     }
+
     &__stringBlack {
-        color: black;
+        color: #000;
     }
+
 }
 
 // 8-я секция с двумя фотографиями и подписями

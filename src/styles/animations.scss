@@ -47,3 +47,51 @@
         transform: translate(-210%);
     }
 }
+
+.ticker {
+
+    &__string1 {
+        
+        animation: 20s linear infinite;
+        animation-name: ticker__string1;
+    }
+
+    &__string2 {
+        
+        animation: 15s linear infinite;
+        animation-name: ticker__string2;
+    }
+
+    &__string3 {
+        
+        animation: 18s linear infinite;
+        animation-name: ticker__string3;
+    }
+}
+
+@keyframes ticker__string1 {
+    0%{
+        transform: translate(110%);
+    }
+    100%{
+        transform: translate(-200%);
+    }
+}
+
+@keyframes ticker__string2 {
+    0%{
+        transform: translate(-250%);
+    }
+    100%{
+        transform: translate(100%);
+    }
+}
+
+@keyframes ticker__string3 {
+    0%{
+        transform: translate(110%);
+    }
+    100%{
+        transform: translate(-270%);
+    }
+}

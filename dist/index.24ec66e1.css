@@ -40,4 +40,46 @@
   }
 }
 
+.ticker__string1 {
+  animation: ticker__string1 20s linear infinite;
+}
+
+.ticker__string2 {
+  animation: ticker__string2 15s linear infinite;
+}
+
+.ticker__string3 {
+  animation: ticker__string3 18s linear infinite;
+}
+
+@keyframes ticker__string1 {
+  0% {
+    transform: translate(110%);
+  }
+
+  100% {
+    transform: translate(-200%);
+  }
+}
+
+@keyframes ticker__string2 {
+  0% {
+    transform: translate(-250%);
+  }
+
+  100% {
+    transform: translate(100%);
+  }
+}
+
+@keyframes ticker__string3 {
+  0% {
+    transform: translate(110%);
+  }
+
+  100% {
+    transform: translate(-270%);
+  }
+}
+
 /*# sourceMappingURL=index.24ec66e1.css.map */
