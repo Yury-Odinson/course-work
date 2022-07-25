@@ -1,0 +1,23 @@
+.agile {
+
+    &-ticker__item {
+
+        animation-name: agile-ticker;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+    }
+
+
+
+}
+
+
+
+@keyframes agile-ticker {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

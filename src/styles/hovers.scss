@@ -69,6 +69,18 @@
     }
 }
 
+.inspiracje {
+
+    &__photo:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    &__photo {
+        transition: 0.2s;
+    }
+}
+
 .contacts {
 
     &-wrapper-socials__item:hover {

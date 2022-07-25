@@ -49,6 +49,15 @@
   transition: all .2s;
 }
 
+.inspiracje__photo:hover {
+  transition: all .2s;
+  transform: scale(1.1);
+}
+
+.inspiracje__photo {
+  transition: all .2s;
+}
+
 .contacts-wrapper-socials__item:hover {
   transition: all .2s;
   transform: scale(1.2);
