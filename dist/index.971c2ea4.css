@@ -4,8 +4,7 @@
 }
 
 #header .header-container {
-  max-width: 1300px;
-  border: 2px solid #000;
+  max-width: 1200px;
   justify-content: space-between;
   margin: 0 auto;
   padding: 40px 0;
@@ -34,7 +33,7 @@
 }
 
 .redesign-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -93,7 +92,7 @@
 }
 
 .help-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -141,7 +140,7 @@
 
 .history-container {
   grid-row-gap: 20px;
-  max-width: 1300px;
+  max-width: 1200px;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "title title title phot1"
@@ -218,7 +217,7 @@
 }
 
 .trusted-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -230,12 +229,13 @@
 
 .trusted-firms {
   flex-wrap: wrap;
+  justify-content: space-around;
   padding: 60px 0 120px;
   display: flex;
 }
 
 .trusted-firms__item {
-  width: 253px;
+  width: 220px;
   height: 76px;
   cursor: pointer;
 }
@@ -319,7 +319,7 @@
 }
 
 .inspiracje-container {
-  max-width: 1300px;
+  max-width: 1200px;
   grid-row-gap: 40px;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -385,7 +385,7 @@
 }
 
 .ticker-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
   font-size: 11.4rem;
@@ -406,7 +406,7 @@
 }
 
 .pomagamy-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
   display: flex;
@@ -415,7 +415,7 @@
 .pomagamy-cell {
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 40px;
+  margin: 0 20px;
   display: flex;
 }
 
@@ -442,7 +442,7 @@
 }
 
 .contacts-container {
-  max-width: 1300px;
+  max-width: 1200px;
   color: #fff;
   margin: 0 auto;
 }
