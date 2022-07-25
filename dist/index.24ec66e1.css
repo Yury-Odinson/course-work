@@ -1,16 +1,28 @@
-.agile-ticker__item {
-  animation-name: agile-ticker;
-  animation-duration: 10s;
-  animation-timing-function: linear;
+.redesign-first__img {
+  animation: first__img 20s linear infinite;
 }
 
-@keyframes agile-ticker {
+.redesign-second__img {
+  animation: second__img 30s linear infinite;
+}
+
+@keyframes first__img {
   0% {
-    transform: translateX(0);
+    transform: rotate(0deg);
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes second__img {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
   }
 }
 
