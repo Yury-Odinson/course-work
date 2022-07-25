@@ -31,4 +31,13 @@
   transition: all .4s;
 }
 
+.agile-navigation-list__item:hover, .agile-ticker__item:hover {
+  color: #e8244f;
+  transition: all .2s;
+}
+
+.agile-navigation-list__item, .agile-ticker__item {
+  transition: all .2s;
+}
+
 /*# sourceMappingURL=index.d3decba7.css.map */

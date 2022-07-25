@@ -289,10 +289,7 @@
 
     &-navigation-list__item {
         padding-top: 10px;
-    }
-
-    &-navigation-list__item:first-child {
-        color: #E8244F;
+        cursor: pointer;
     }
 
     &-title {
@@ -331,10 +328,7 @@
         font-size: 11.4rem;
         padding-right: 50px;
         color: #181818;
-    }
-
-    &-ticker__item:first-child {
-        color: #E8244F;
+        cursor: pointer;
     }
 }
 

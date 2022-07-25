@@ -274,11 +274,8 @@
 }
 
 .agile-navigation-list__item {
+  cursor: pointer;
   padding-top: 10px;
-}
-
-.agile-navigation-list__item:first-child {
-  color: #e8244f;
 }
 
 .agile-title {
@@ -314,12 +311,9 @@
 
 .agile-ticker__item {
   color: #181818;
+  cursor: pointer;
   padding-right: 50px;
   font-size: 11.4rem;
-}
-
-.agile-ticker__item:first-child {
-  color: #e8244f;
 }
 
 .inspiracje {
