@@ -481,6 +481,7 @@
 
 .contacts-wrapper-socials__item {
   height: 60px;
+  cursor: pointer;
   padding: 0 20px;
 }
 
