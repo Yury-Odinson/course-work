@@ -242,6 +242,7 @@
 .trusted-firms__item {
   width: 253px;
   height: 76px;
+  cursor: pointer;
 }
 
 .agile {

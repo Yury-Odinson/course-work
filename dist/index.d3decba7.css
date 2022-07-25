@@ -22,4 +22,13 @@
   transition: all .2s;
 }
 
+.trusted-firms__item:hover {
+  background-color: #f1f1f1;
+  transition: all .4s;
+}
+
+.trusted-firms__item {
+  transition: all .4s;
+}
+
 /*# sourceMappingURL=index.d3decba7.css.map */
