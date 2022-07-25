@@ -175,6 +175,11 @@
   font-size: 1.7rem;
 }
 
+.history__photo {
+  max-width: 294px;
+  font-size: 1.2rem;
+}
+
 .history__photo1 {
   grid-area: phot1;
 }
