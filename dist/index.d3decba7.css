@@ -8,4 +8,18 @@
   transition: all .4s;
 }
 
+.help-list-row:hover {
+  background-color: #f1f1f1;
+  transition: all .2s;
+}
+
+.help-list-row:hover .help-list__item3 {
+  transition: all .2s;
+  transform: rotate(90deg);
+}
+
+.help-list-row, .help-list__item3 {
+  transition: all .2s;
+}
+
 /*# sourceMappingURL=index.d3decba7.css.map */
