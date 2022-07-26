@@ -1,0 +1,546 @@
+@media (max-width: 600px) {
+
+    #header {
+
+        background-color: black;
+        width: 100%;
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding: 40px;
+            max-width: 600px;
+        }
+    
+        .header__logo {
+            width: 147px;
+            height: 20px;
+        }
+    
+        .header-nav {
+            font-size: 1.2rem;
+            // нижнее свойство необходимо для того,
+            // чтобы отображался обычный курсор между кнопок навигации.
+            cursor: default;
+        }
+    
+        .header-nav__item {
+            padding: 10px;
+            color: white;
+            // бордер для анимации
+            border-radius: 10px;
+        }
+    }
+    
+    // 1-я, главная секция на чёрном фоне
+    .redesign {
+    
+        width: 100%;
+        background-color: black;
+    
+        &-container {
+            margin: 0 auto;
+            max-width: 600px;
+        }
+    
+        &-cover__image {
+            position: absolute;
+            margin-top: 50px;
+            left: 40%;
+            width: 222px;
+            height: 199px;
+        }
+    
+        &-title {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+    
+        &-title__abovetitle {
+            font-size: 1.1rem;
+            color: #999999;
+        }
+    
+        &-title__item {
+            color: white;
+            font-size: 5.5rem;
+        }
+    
+        &-descriptions {
+            display: flex;
+            justify-content: space-between;
+            padding: 80px 50px;
+            font-size: 1.5rem;
+            line-height: 3rem;
+            color: white;
+        }
+    
+        &-descriptions__item {
+            max-width: 500px;
+        }
+    
+        &-descriptions__free {
+            color: rgba(white, 0.4);
+        }
+    }
+    
+    // 2-я секция на белом фоне "Jak możemy pomóc"
+    .help {
+        width: 100%;
+    
+        &-container {
+            margin: 0 auto;
+            max-width: 600px;
+        }
+    
+        &__title {
+            color: #E8244F;
+            font-size: 1.5rem;
+        }
+    
+        &-list {
+            padding: 10px 0;
+        }
+    
+        &-list-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px 20px;
+            cursor: pointer;
+        }
+    
+        &-list__item {
+            margin: auto 0;
+            min-width: 320px;
+        }
+    
+        &-list__item1 {
+            font-size: 3.6rem;
+        }
+    
+        &-list__item2 {
+            text-align: left;
+            font-size: 1.6rem;
+        }
+    
+        &-list__item3 {
+            margin: auto 0;
+            width: 43px;
+            height: 43px;
+        }
+    }
+    
+    // 3-я грид-секция на белом фоне с фото
+    .history {
+    
+        width: 100%;
+    
+        &-container {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-areas: "title phot1 " 
+                                 "descr phot2 "
+                                 "phot3 phot4 "
+                                 "phot5 phot6 "
+                                 "phot7 phot8 "
+                                 "after after      " ;
+            
+            grid-gap: 20px 80px;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+    
+        &__title {
+            margin: auto;
+            grid-area: title;
+            font-size: 7.4rem;
+            max-width: 500px;
+        }
+    
+        &-descriptions {
+            grid-area: descr;
+            margin: auto 0;
+            font-size: 2rem;
+            font-size: 1.7rem;
+        }
+    
+        &-descriptions__item {
+            padding-bottom: 20px;
+            font-size: 1.7rem;
+        }
+    
+        &__photo {
+            font-size: 1.2rem;
+            max-width: 294;
+        }
+    
+        &__photo1 {
+            grid-area: phot1;
+        }
+    
+        &__photo2 {
+            grid-area: phot2;
+        }
+    
+        &__photo3 {
+            grid-area: phot3;
+        }
+    
+        &__photo4 {
+            grid-area: phot4;
+        }
+    
+        &__photo5 {
+            grid-area: phot5;
+        }
+    
+        &__photo6 {
+            grid-area: phot6;
+        }
+    
+        &__photo7 {
+            grid-area: phot7;
+        }
+    
+        &__photo8 {
+            grid-area: phot8;
+        }
+    
+        &__afterwords {
+            grid-area: after;
+            margin: auto;
+            font-size: 1.7rem;
+        }
+    }
+    
+    // 4-я секция на белом фоне
+    .trusted {
+        width: 100%;
+    
+        &-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+    
+        &__title {
+            padding: 30px 0 0;
+            color: #E8244F;
+            font-size: 1.5rem;
+        }
+    
+        &-firms {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 30px 0px;
+        }
+    
+        &-firms__item {
+            width: 220px;
+            height: 76px;
+            cursor: pointer;
+        }
+    }
+    
+    // 5-я секция на чёрном фоне
+    .agile {
+    
+        width: 100%;
+        background-color: black;
+    
+        &-container {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "ag__nav ag__tit ag__tit "
+                                 "ag__nav ag__des ag__des "
+                                 "ag__tic ag__tic ag__tic ";
+    
+            grid-row-gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 80px 40px;
+            color: white;
+        }
+    
+        &-navigation {
+            grid-area: ag__nav;
+            max-width: 320px;
+        }
+    
+        &-navigation-list {
+            font-size: 1.4rem;
+        }
+    
+        &-navigation-list__item {
+            padding-top: 10px;
+            cursor: pointer;
+        }
+    
+        &-title {
+            grid-area: ag__tit;
+            max-width: 500px;
+        }
+    
+        &-title__item {
+            font-size: 3.8rem;
+        }
+    
+        &-description {        
+            grid-area: ag__des;
+            max-width: 500px;
+        }
+    
+        &-description__item {
+            padding: 20px 0;
+            font-size: 1.3rem;
+        }
+    
+        &-description__afterwords {
+            font-size: 1.6rem;
+            padding-bottom: 10px;
+            border-bottom: 1px solid white;
+        }
+    
+        &-wrapper-ticker {
+            overflow: hidden;
+            grid-area: ag__tic;
+        }
+    
+        &-ticker {
+            display: flex;
+        }
+    
+        &-ticker__item {
+            font-size: 5.4rem;
+            padding-right: 50px;
+            color: #181818;
+            cursor: pointer;
+        }
+    }
+    
+    // 6-я грид-секция на белом фоне
+    .inspiracje {
+    
+        width: 100%;
+    
+        &-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 60px 40px 0;
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "in__phot1 in__title"
+                                 "in__phot2 in__phot3"
+                                 "in__phot4 in__phot5"
+                                 "in__phot6 in__phot7"
+                                 "in__after in__after";
+            grid-gap: 20px 80px;
+        }
+    
+        &-title {
+            margin: auto 0;
+            grid-area: in__title;
+        }
+    
+        &-title__item {
+            font-size: 7.4rem;
+        }
+    
+        &-title__description {
+            padding: 20px 0;
+            font-size: 2rem;
+        }
+    
+        &__photo1 {
+            grid-area: in__phot1;
+        }
+    
+        &__photo2 {
+            grid-area: in__phot2;
+        }
+    
+        &__photo3 {
+            grid-area: in__phot3;
+        }
+    
+        &__photo4 {
+            grid-area: in__phot4;
+        }
+    
+        &__photo5 {
+            grid-area: in__phot5;
+        }
+    
+        &__photo6 {
+            grid-area: in__phot6;
+        }
+    
+        &__photo7 {
+            grid-area: in__phot7;
+        }
+    
+        &__afterwords {
+            padding-right: 180px;
+            grid-area: in__after;
+            font-size: 2rem;
+        }
+    }
+    
+    // 7-я секция с бегущей строкой
+    .ticker {
+    
+        width: 100%;
+    
+        &-container {
+            margin: 0 auto;
+            padding: 0;
+            max-width: 600px;
+            overflow: hidden;
+            font-size: 7.4rem;
+        }
+    
+        &__string1, 
+        &__string2,
+        &__string3 {
+            white-space: nowrap;
+            color: #888888;
+        }
+    
+        &__stringBlack {
+            color: #000;
+        }
+    }
+    
+    // 8-я секция с двумя фотографиями и подписями
+    .pomagamy {
+    
+        width: 100%;
+    
+        &-container{
+            display: flex;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 100px 40px;
+        }
+    
+        &-cell {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-cell__photo {
+            max-width: 300px;
+        }
+
+        &-cell__title {
+            font-size: 2.6rem;
+        }
+    
+        &-cell__description {
+            padding: 20px 0;
+            font-size: 2rem;
+        }
+        
+        &-cell-signatures__item {
+            max-width: 150px;
+        }
+
+        &-cell-signatures__decoding {
+            font-size: 1.1rem;
+        }
+    }
+    
+    // 9-я секция с контактами
+    .contacts {
+    
+        width: 100%;
+        background-color: black;
+    
+        &-container {
+            
+            margin: 0 auto;
+            padding: 0 40px;
+            max-width: 600px;
+            color: white;
+        }
+    
+        &__title {
+            padding: 50px 0;
+            font-size: 1.5rem;
+        }
+    
+        &-links {
+            padding: 0;
+            max-width: 300px;
+            font-size: 4rem;
+        }
+    
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+    
+        &-wrapper__address {
+            display: inline-block;
+            max-width: 300px;
+            font-size: 1.5rem;
+        }
+    
+        &-wrapper-socials {
+            display: inline-block;
+        }
+    
+        &-wrapper-socials__item {
+            padding: 0 20px;
+            // если раскомментировать нижнее свойство, то изображение пропадает
+            // width: 60px;
+            height: 60px;
+            cursor: pointer;
+        }
+    
+        &-footer {
+            display: flex;
+            padding: 40px 0;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 1.2rem;    
+        }
+    
+        &-footer__item {
+            padding-right: 90px;
+        }
+    
+        &-footer__righted {
+            // прижимаем последний элемент к правому краю
+            order: 999;
+            margin-left: auto;
+            padding-right: 20px;
+        }
+    }
+    
+    // подвал сайта с кнопкой наверх
+    .footer {
+        max-width: 100%;
+    
+        &-container {
+            margin: 0 auto;
+            padding: 10px 0;
+            max-width: 300px;
+            text-align: center;
+            color: black;
+        }
+    
+        &__toTop {
+            font-size: 2.6rem;
+        }
+    }    
+
+}
