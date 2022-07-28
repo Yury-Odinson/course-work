@@ -289,7 +289,7 @@
   }
 
   .agile-title__item {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
   }
 
   .agile-description {
@@ -299,7 +299,7 @@
 
   .agile-description__item {
     padding: 10px 0;
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 
   .agile-description__afterwords {
@@ -321,7 +321,7 @@
     color: #181818;
     cursor: pointer;
     padding-right: 50px;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
   }
 
   .inspiracje {
@@ -387,7 +387,7 @@
   }
 
   .inspiracje-photo__item {
-    max-width: 150px;
+    max-width: 130px;
   }
 
   .inspiracje__afterwords {
@@ -435,7 +435,7 @@
   }
 
   .pomagamy-cell__photo {
-    max-width: 150px;
+    max-width: 110px;
   }
 
   .pomagamy-cell__title {
@@ -450,7 +450,7 @@
   }
 
   .pomagamy-cell-signatures__item {
-    max-width: 70px;
+    max-width: 60px;
   }
 
   .pomagamy-cell-signatures__decoding {
@@ -466,7 +466,7 @@
     max-width: 320px;
     color: #fff;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 10px;
   }
 
   .contacts__title {
@@ -475,9 +475,9 @@
   }
 
   .contacts-links {
-    max-width: 500px;
+    max-width: 150px;
     padding: 0;
-    font-size: 6.5rem;
+    font-size: 2rem;
   }
 
   .contacts-wrapper {
@@ -497,7 +497,7 @@
   }
 
   .contacts-wrapper-socials__item {
-    height: 60px;
+    height: 30px;
     cursor: pointer;
     padding: 0 20px;
   }
@@ -505,18 +505,18 @@
   .contacts-footer {
     color: #fff6;
     padding: 40px 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
   }
 
   .contacts-footer__item {
-    padding-right: 90px;
+    padding-right: 10px;
   }
 
   .contacts-footer__righted {
     order: 999;
     margin-left: auto;
-    padding-right: 20px;
+    padding-right: 0;
   }
 
   .footer {
@@ -531,7 +531,7 @@
   }
 
   .footer__toTop {
-    font-size: 4.6rem;
+    font-size: 2.6rem;
   }
 }
 
