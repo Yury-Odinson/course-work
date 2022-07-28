@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 899px) {
   #header {
     width: 100%;
     background-color: #000;
@@ -39,8 +39,8 @@
   }
 
   .redesign-cover__image {
-    width: 444px;
-    height: 398px;
+    width: 360px;
+    height: 314px;
     margin-top: 100px;
     position: absolute;
     left: 32%;
@@ -60,7 +60,7 @@
 
   .redesign-title__item {
     color: #fff;
-    font-size: 8rem;
+    font-size: 7rem;
   }
 
   .redesign .title__item1 {
@@ -121,18 +121,18 @@
   }
 
   .help-list__item1 {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 
   .help-list__item2 {
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .help-list__item3 {
     width: 43px;
     height: 43px;
-    margin: auto 0;
+    margin: auto;
   }
 
   .history {
@@ -140,6 +140,7 @@
   }
 
   .history-container {
+    grid-gap: 30px;
     max-width: 900px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(5, 1fr);
@@ -214,7 +215,7 @@
   }
 
   .history-photo__item {
-    max-width: 250px;
+    max-width: 230px;
   }
 
   .trusted {
@@ -382,7 +383,7 @@
   }
 
   .inspiracje-photo__item {
-    max-width: 250px;
+    max-width: 220px;
   }
 
   .inspiracje__afterwords {
@@ -430,7 +431,7 @@
   }
 
   .pomagamy-cell__photo {
-    max-width: 400px;
+    max-width: 330px;
   }
 
   .pomagamy-cell__title {
@@ -445,11 +446,11 @@
   }
 
   .pomagamy-cell-signatures__item {
-    max-width: 200px;
+    max-width: 150px;
   }
 
   .pomagamy-cell-signatures__decoding {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .contacts {
@@ -470,9 +471,9 @@
   }
 
   .contacts-links {
-    max-width: 500px;
+    max-width: 400px;
     padding: 0;
-    font-size: 6.5rem;
+    font-size: 4.5rem;
   }
 
   .contacts-wrapper {
