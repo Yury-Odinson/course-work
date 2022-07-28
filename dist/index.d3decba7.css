@@ -49,7 +49,7 @@
   transition: all .2s;
 }
 
-.inspiracje__photo:hover {
+.inspiracje-photo:hover {
   transition: all .2s;
   transform: scale(1.1);
 }
