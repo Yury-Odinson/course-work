@@ -1,5 +1,15 @@
 #header {
 
+
+    .header__logo:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .header__logo {
+        transition: 0.2s;
+    }
+
     .header-nav__item:hover {
         background-color: #FFF;
         color: black;

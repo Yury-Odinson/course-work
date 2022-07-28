@@ -1,3 +1,12 @@
+#header .header__logo:hover {
+  transition: all .2s;
+  transform: scale(1.1);
+}
+
+#header .header__logo {
+  transition: all .2s;
+}
+
 #header .header-nav__item:hover {
   color: #000;
   background-color: #fff;
