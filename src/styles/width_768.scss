@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
 
     #header {
 
@@ -59,19 +59,28 @@
         }
     
         &-title__abovetitle {
+            padding-left: 110px;
             font-size: 1.1rem;
             color: #999999;
         }
     
         &-title__item {
             color: white;
-            font-size: 5.5rem;
+            font-size: 4rem;
+        }
+
+        .title__item1 {
+            padding-left: 100px;
+        }
+    
+        .title__item2 {
+            padding-left: 230px;
         }
     
         &-descriptions {
             display: flex;
             justify-content: space-between;
-            padding: 80px 50px;
+            padding: 120px 50px 10px;
             font-size: 1.5rem;
             line-height: 3rem;
             color: white;
@@ -149,24 +158,22 @@
                                  "phot7 phot8 "
                                  "after after      " ;
             
-            grid-gap: 20px 80px;
+            grid-gap: 30px;
             max-width: 768px;
             margin: 0 auto;
-            padding: 80px 20px;
+            padding: 80px 50px;
         }
     
         &__title {
             margin: auto;
             grid-area: title;
-            font-size: 7.4rem;
+            font-size: 5.4rem;
             max-width: 500px;
         }
     
         &-descriptions {
             grid-area: descr;
             margin: auto 0;
-            font-size: 2rem;
-            font-size: 1.7rem;
         }
     
         &-descriptions__item {
@@ -210,7 +217,11 @@
         &__photo8 {
             grid-area: phot8;
         }
-    
+
+        &-photo__item {
+            max-width: 200px;
+        }
+
         &__afterwords {
             grid-area: after;
             margin: auto;
@@ -351,12 +362,12 @@
         }
     
         &-title__item {
-            font-size: 7.4rem;
+            font-size: 5.4rem;
         }
     
         &-title__description {
             padding: 20px 0;
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
     
         &__photo1 {
@@ -387,6 +398,10 @@
             grid-area: in__phot7;
         }
     
+        &-photo__item {
+            max-width: 230px;
+        }
+
         &__afterwords {
             padding-right: 180px;
             grid-area: in__after;
@@ -437,24 +452,24 @@
         }
 
         &-cell__photo {
-            max-width: 300px;
+            max-width: 220px;
         }
 
         &-cell__title {
-            font-size: 2.6rem;
+            font-size: 2rem;
         }
     
         &-cell__description {
             padding: 20px 0;
-            font-size: 2rem;
+            font-size: 1.3rem;
         }
         
         &-cell-signatures__item {
-            max-width: 150px;
+            max-width: 100px;
         }
 
         &-cell-signatures__decoding {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
     }
     
