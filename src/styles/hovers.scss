@@ -54,17 +54,6 @@
     }
 }
 
-// .trusted {
-
-//     &-firms__item:hover {
-//         background-color: #f1f1f1;
-//         transition: 0.4s;
-//     }
-//     &-firms__item {
-//         transition: 0.4s;
-//     }
-// }
-
 .agile {
 
     &-navigation-list__item:hover, 
@@ -86,7 +75,7 @@
         transition: 0.2s;
     }
 
-    &__photo {
+    &-photo {
         transition: 0.2s;
     }
 }

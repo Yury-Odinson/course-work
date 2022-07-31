@@ -1,0 +1,189 @@
+@media (min-width: 901px) and (max-width: 1024px) {
+
+    html {
+        max-width: 1024px;
+    }
+
+    #header {
+
+        .header-container {
+            padding: 40px;
+        }
+    }
+
+    .redesign {
+
+        &-cover__image {
+            margin-top: 50px;
+            left: 33%;
+        }
+
+        &-title__item {
+            font-size: 9rem;
+        }
+
+        .title__item1 {
+            padding-left: 100px;
+        }
+    
+        .title__item2 {
+            padding-left: 260px;
+        }
+
+        &-title__abovetitle {
+            padding-left: 160px;
+        }
+    }
+
+    .help {
+
+        &-container {
+            padding: 0;
+        }
+
+        &__title {
+            padding: 60px 40px 0;
+        }
+
+        &-list-row {
+            padding: 20px 40px;
+        }
+
+        &-list__item1 {
+            font-size: 3.6rem;
+        }
+    }
+
+
+    .history {
+
+        &-container {
+            padding: 40px;
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas:"title title phot1" 
+                                "descr phot2 phot3"
+                                "phot4 phot5 phot6"
+                                "phot7 phot8 after";
+                                grid-gap: 20px;
+        }
+
+        &__title {
+            font-size: 8rem;
+        }
+
+        &-descriptions__item {
+            font-size: 1.5rem;
+        }
+
+        &-photo__item {
+            max-width: 250px;
+        }
+    }
+
+    .trusted {
+
+        &__title {
+            padding: 40px;
+        }
+
+        &-firms {
+            padding: 0;
+        }
+    }
+
+    .agile {
+        &-container {
+            padding: 40px;
+        }
+
+        &-description__item {
+            font-size: 1.5rem;
+        }
+
+        &-ticker__item {
+            font-size: 6rem;
+        }
+    }
+
+    .inspiracje {
+
+        &-container {
+            padding: 40px;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: "in__phot1 in__phot2 in__title"
+                                 "in__phot3 in__phot4 in__phot5"
+                                 "in__after in__phot6 in__phot7";
+            grid-gap: 40px;
+        }
+
+        &-title__item {
+            font-size: 6rem;
+        }
+
+        &-title__description {
+            padding: 0;
+            font-size: 1.5rem;
+        }
+
+        &-photo__item {
+            max-width: 250px;
+        }
+
+        &__afterwords {
+            padding: 0;
+            font-size: 1.5rem;
+        }
+    }
+
+    .pomagamy {
+
+        &-cell {
+            max-width: 400px;
+        }
+
+        &-cell__photo {
+            max-width: 400px;
+        }
+
+        &-cell-signatures__item {
+            max-width: 200px;
+        }
+
+        &-cell-signatures__decoding {
+            font-size: 1.7rem;
+        }
+    }
+
+    .contacts {
+
+        &-container {
+            padding: 40px;
+        }
+
+        &__title {
+            padding: 0;
+            font-size: 1.5rem;
+        }
+
+        &-links {
+            padding-top: 100px;
+            max-width: 400px;
+            font-size: 5rem;
+        }
+
+        &-footer {
+            padding: 0;
+        }
+    }
+
+    .footer {
+        &-container {
+            padding: 10px 0;
+        }
+    }
+
+}
