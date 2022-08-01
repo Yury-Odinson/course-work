@@ -17,17 +17,17 @@
   transition: all .4s;
 }
 
-.help-list-row:hover {
+.help-tabs-row:hover {
   background-color: #f1f1f1;
   transition: all .2s;
 }
 
-.help-list-row:hover .help-list__item3 {
+.help-tabs-row:hover .help-tabs-row__item3 {
   transition: all .2s;
   transform: rotate(90deg);
 }
 
-.help-list-row, .help-list__item3 {
+.help-tabs-row, .help-tabs-row__item3 {
   transition: all .2s;
 }
 
