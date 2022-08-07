@@ -70,12 +70,12 @@
 
 .inspiracje {
 
-    &-photo:hover {
+    &__photo:hover {
         transform: scale(1.1);
         transition: 0.2s;
     }
 
-    &-photo {
+    &__photo {
         transition: 0.2s;
     }
 }
