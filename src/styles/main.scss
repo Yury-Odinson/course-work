@@ -428,15 +428,19 @@
         font-size: 11.4rem;
     }
 
-    &__string1, 
-    &__string2,
-    &__string3 {
-        white-space: nowrap;
-        color: #888888;
+
+
+    &-row {
+        display: flex;
     }
 
-    &__stringBlack {
-        color: #000;
+    &-row__item {
+        padding: 0 40px;
+        white-space: nowrap;
+    }
+
+    &-row__Gray {
+        color: #888888
     }
 }
 

@@ -40,45 +40,45 @@
   }
 }
 
-.ticker__string1 {
-  animation: ticker__string1 20s linear infinite;
+.ticker-row1 {
+  animation: ticker__string1 12s linear infinite;
 }
 
-.ticker__string2 {
-  animation: ticker__string2 15s linear infinite;
+.ticker-row2 {
+  animation: ticker__string2 13s linear infinite;
 }
 
-.ticker__string3 {
-  animation: ticker__string3 18s linear infinite;
+.ticker-row3 {
+  animation: ticker__string3 10s linear infinite;
 }
 
 @keyframes ticker__string1 {
   0% {
-    transform: translate(110%);
+    transform: translateX(0);
   }
 
   100% {
-    transform: translate(-200%);
+    transform: translateX(-100%);
   }
 }
 
 @keyframes ticker__string2 {
   0% {
-    transform: translate(-250%);
+    transform: translateX(-100%);
   }
 
   100% {
-    transform: translate(100%);
+    transform: translateX(0);
   }
 }
 
 @keyframes ticker__string3 {
   0% {
-    transform: translate(110%);
+    transform: translateX(0);
   }
 
   100% {
-    transform: translate(-270%);
+    transform: translateX(-100%);
   }
 }
 

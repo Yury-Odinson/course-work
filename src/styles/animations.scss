@@ -13,19 +13,19 @@
 }
 
 @keyframes first__img {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
 
 @keyframes second__img {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+    100% {
         transform: rotate(-360deg);
     }
 }
@@ -40,58 +40,55 @@
 
 @keyframes agile-ticker {
 
-    0%{
+    0% {
         transform: translate(100%);
     }
-    100%{
+    100% {
         transform: translate(-210%);
     }
 }
 
 .ticker {
 
-    &__string1 {
-        
-        animation: 20s linear infinite;
+    &-row1 {
+        animation: 12s linear infinite;
         animation-name: ticker__string1;
     }
 
-    &__string2 {
-        
-        animation: 15s linear infinite;
+    &-row2 {
+        animation: 13s linear infinite;
         animation-name: ticker__string2;
     }
 
-    &__string3 {
-        
-        animation: 18s linear infinite;
+    &-row3 {
+        animation: 10s linear infinite;
         animation-name: ticker__string3;
     }
 }
 
 @keyframes ticker__string1 {
-    0%{
-        transform: translate(110%);
+    0% {
+        transform: translateX(0);
     }
-    100%{
-        transform: translate(-200%);
+    100% {
+        transform: translateX(-100%);
     }
 }
 
 @keyframes ticker__string2 {
-    0%{
-        transform: translate(-250%);
+    0% {
+        transform: translateX(-100%);
     }
-    100%{
-        transform: translate(100%);
+    100% {
+        transform: translateX(0);
     }
 }
 
 @keyframes ticker__string3 {
-    0%{
-        transform: translate(110%);
+    0% {
+        transform: translateX(0);
     }
-    100%{
-        transform: translate(-270%);
+    100% {
+        transform: translateX(-100%);
     }
 }

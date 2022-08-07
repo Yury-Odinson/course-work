@@ -403,13 +403,17 @@
   overflow: hidden;
 }
 
-.ticker__string1, .ticker__string2, .ticker__string3 {
-  white-space: nowrap;
-  color: #888;
+.ticker-row {
+  display: flex;
 }
 
-.ticker__stringBlack {
-  color: #000;
+.ticker-row__item {
+  white-space: nowrap;
+  padding: 0 40px;
+}
+
+.ticker-row__Gray {
+  color: #888;
 }
 
 .pomagamy {
