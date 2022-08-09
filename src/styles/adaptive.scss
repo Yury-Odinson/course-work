@@ -60,20 +60,28 @@
             padding: 40px;
             display: grid;
             grid-template-rows: repeat(4, 1fr);
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 200px);
             grid-template-areas:"title title phot1" 
                                 "descr phot2 phot3"
                                 "phot4 phot5 phot6"
                                 "phot7 phot8 after";
-                                grid-gap: 20px;
+            justify-content: space-around;
         }
 
         &__title {
             font-size: 8rem;
         }
 
+        &-descriptions {
+            padding: 0;
+        }
+
         &-descriptions__item {
             font-size: 1.5rem;
+        }
+
+        &__photo {
+            width: 250px;
         }
 
         &-photo__item {
@@ -628,6 +636,59 @@
             // 
             // 
             // 
+        }
+
+        .header-menu {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            // color: white;
+            cursor: pointer;
+        }
+    
+        .header-burger {
+            display: none;
+        }
+    
+        .header-menu-line {
+            position: absolute;
+            width: 35px;
+            height: 2px;
+            top: 40px;
+            right: 0;
+            background-color: white;
+            transition: 0.5s;
+        }
+    
+        .header-menu-line1 {
+            top: 40;
+        }
+    
+        .header-menu-line2,
+        .header-menu-line3 {
+            top: 48px;
+        } 
+    
+        .header-menu-line4 {
+            top: 56;
+        }
+
+        .header-nav {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateY(50%);
+            // для плавности открытия бургера
+            max-height: 0;
+            font-size: 0;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+
+        .header-nav__item {
+            display: block;
+            padding: 10px;
         }
     }
 

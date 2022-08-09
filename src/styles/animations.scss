@@ -1,3 +1,28 @@
+#menu:checked ~ .header-nav {
+    max-height: 500px;
+    font-size: 1.5rem;
+}
+
+#menu:checked ~ .header-menu-line1 {
+    display: none;
+    transition: 0.5s;
+}
+
+#menu:checked ~ .header-menu-line2 {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+#menu:checked ~ .header-menu-line3 {
+    transform: rotate(-45deg);
+    transition: 0.5s;
+}
+
+#menu:checked ~ .header-menu-line4 {
+    display: none;
+    transition: 0.5s;
+}
+
 .redesign {
 
     &-first__img {

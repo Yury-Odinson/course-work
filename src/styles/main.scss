@@ -4,17 +4,21 @@
     width: 100%;
     
     .header-container {
+        position: relative;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         padding: 40px 0;
         max-width: 1200px;
-        
     }
 
     .header__logo {
         width: 147px;
         height: 20px;
+    }
+
+    .header-burger {
+        display: none;
     }
 
     .header-nav {

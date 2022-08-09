@@ -9,11 +9,16 @@
   margin: 0 auto;
   padding: 40px 0;
   display: flex;
+  position: relative;
 }
 
 #header .header__logo {
   width: 147px;
   height: 20px;
+}
+
+#header .header-burger {
+  display: none;
 }
 
 #header .header-nav {
