@@ -123,11 +123,19 @@
     }
 
     &-tabs__check + &-tabs__label ~ &-tabs__hide {
-        display: none;
+        padding: 0 200px;
+        max-height: 0;
+        font-size: 0;
+        opacity: 0;
+        transition: 0.3s;
     }
 
     &-tabs__check:checked + &-tabs__label + &-tabs__hide {
-        display: block;
+        padding: 20px 200px;
+        max-height: 200px;
+        font-size: 1.5rem;
+        opacity: 1;
+        transition: 0.3s;
     }
 
     &-tabs-row {
@@ -383,6 +391,10 @@
         font-size: 2rem;
     }
 
+    &__photo {
+        max-width: 300px;
+    }
+
     &__photo1 {
         grid-area: in__phot1;
     }
@@ -481,6 +493,10 @@
         flex-wrap: wrap;
         justify-content: space-around;
         max-width: 480px;
+    }
+
+    &-cell-signatures__decoding {
+        margin: auto 0;
     }
 }
 

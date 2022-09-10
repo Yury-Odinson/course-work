@@ -111,12 +111,24 @@
   padding: 20px 0;
 }
 
-.help-tabs__check, .help-tabs__check + .help-tabs__label ~ .help-tabs__hide {
+.help-tabs__check {
   display: none;
 }
 
+.help-tabs__check + .help-tabs__label ~ .help-tabs__hide {
+  max-height: 0;
+  opacity: 0;
+  padding: 0 200px;
+  font-size: 0;
+  transition: all .3s;
+}
+
 .help-tabs__check:checked + .help-tabs__label + .help-tabs__hide {
-  display: block;
+  max-height: 200px;
+  opacity: 1;
+  padding: 20px 200px;
+  font-size: 1.5rem;
+  transition: all .3s;
 }
 
 .help-tabs-row {
@@ -361,6 +373,10 @@
   font-size: 2rem;
 }
 
+.inspiracje__photo {
+  max-width: 300px;
+}
+
 .inspiracje__photo1 {
   grid-area: in__phot1;
 }
@@ -454,6 +470,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   display: flex;
+}
+
+.pomagamy-cell-signatures__decoding {
+  margin: auto 0;
 }
 
 .contacts {
